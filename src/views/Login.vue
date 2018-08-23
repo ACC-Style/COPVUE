@@ -1,7 +1,7 @@
 <template>
 <div class="login ">
 	<div class="grid-x">
-		<div class="cell small-6 large-4 margin_auto">
+		<div class="cell small-10 medium-8 large-4 margin_auto">
 			<div class="card shadow_2 cell  ">
 			<div class="card-divider color_white font-size_3 padding_4 texture_dust  back_primary">
 				ACC Staff Login

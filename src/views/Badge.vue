@@ -1,5 +1,5 @@
 <template>
-  <div class="badgeInput">
+  <div class="badgeInput padding-right_4 padding-left_4">
     <BadgeInput msg="Please Put your Badge Number In"/>
   </div>
 </template>
