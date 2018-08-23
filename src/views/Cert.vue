@@ -77,7 +77,7 @@
                     <div class="cell small-4"><a @click="emailtext= emailtext +'@outlook.com'" class="button small expanded secondaryalt margin-bottom_0"><i class="fal fa-at"></i>outlook.com</a></div>
                     <div class="cell small-4"><a @click="emailtext= emailtext +'@aol.com'" class="button small expanded secondaryalt margin-bottom_0"><i class="fal fa-at"></i>aol.com</a></div>
                 </div>
-                <div class=""><div class="float-right"><button class="button secondary  small" data-close aria-label="Close modal" >Cancel</button></div></div>
+                <div class=""><div class="float-right"><button class="button secondary expanded small" data-close aria-label="Close modal" >Cancel</button></div></div>
             </div>
         </reveal>
     </section>
