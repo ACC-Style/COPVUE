@@ -1,7 +1,7 @@
 module.exports = {
   assetsDir: 'public/assets',
-  baseUrl: undefined,
-  outputDir: undefined,
+  baseUrl: '/COPVUE/',
+  outputDir: 'docs/',
   runtimeCompiler: undefined,
   productionSourceMap: undefined,
   parallel: undefined,
