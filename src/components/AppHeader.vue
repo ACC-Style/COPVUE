@@ -1,7 +1,7 @@
 <template>
     <header class="padding_4 border-bottom-width_4 border_primary border_solid grid-x back_white">
       <a href="#/badge">
-        <img src="assets/img/headerlogo.svg" style="height: 75px;" alt="">
+        <img src="/COPVUE/assets/img/headerlogo.svg" style="height: 75px;" alt="">
       </a>
       <div class="hide-for-small-only cell auto text-center font_3 padding_4 font_slab color_acc show-medium">
        {{ title }}
