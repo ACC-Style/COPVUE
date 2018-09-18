@@ -6,12 +6,14 @@
                     <div class="card-divider border-top-left-square color_white padding_4 texture_dust back_primary-n1">
                         <h2 class="text-center cell" style="width:100%">certificate preview</h2>
                     </div>
-                    <div class="padding_4  padding-bottom_0"> <img src="https://picsum.photos/960/100" alt="" class="border_solid border_black-5 border-width_1"></div>
+                    <div class="border-width_4 border_secondary-5 border_solid margin-bottom_2 margin_3 padding_2">
+                        <div class="padding_4  padding-bottom_0"> <img src="/COPVUE/assets/img/cert-top.png"  alt=""></div>
                     <div class="padding_4 grid-x">
-                        <input type="text" class="font_2 margin_0 padding_2 shadow_n3  text-center cell auto" disabled style="height:auto" value="Name of Doctor, Designation" />
-                        <button href="" class="button cell font_2 padding_2 padding-right_5 padding-left_5 auto shrink margin_0"><i class="fas fa-pencil"></i></button>
+                        <input type="text" class="font_2 margin_0 padding_2 shadow_n2  text-center cell auto border_none"  style="height:auto" value="Name of Doctor, Designation" />
+                        <button href="" class="button secondaryalt cell font_2 padding_2 padding-right_5 padding-left_5 auto shrink margin_0"><i class="fas fa-pencil"></i></button>
                     </div>
-                    <div class="padding_4 padding-top_0 "> <img src="https://picsum.photos/960/400" alt="" class="border_solid border_black-5 border-width_1"></div>
+                    <div class="padding_4 padding-top_0 "> <img src="/COPVUE/assets/img/cert-bottom.png"  alt=""></div>
+                    </div>
                     <div class="card-section" v-if="sessionsVisible">
                         <table class="unstriped table">
                             <thead class="thead">
@@ -40,8 +42,8 @@
                         <h4 class="text-center cell"><i class="fas fa-check-square"></i> Email a copy to address below</h4>
                     </div> 
                                             <div class="padding_5 grid-x">
-                            <input type="text" class=" margin_0 shadow_n3  text-center cell auto" disabled style="height:auto" value="emailaddress@email.com" />
-                            <button href="" class="button cell  padding-right_5 padding-left_5 auto shrink margin_0" @click="openEmailReveal"><i class="fas fa-pencil"></i></button>
+                            <input type="text" class=" margin_0 shadow_n2  text-center cell auto"  style="height:auto" value="emailaddress@email.com" />
+                            <button href="" class="button cell secondaryalt padding-right_5 padding-left_5 auto shrink margin_0" @click="openEmailReveal"><i class="fas fa-pencil"></i></button>
                         
                     </div>
                 </div>
