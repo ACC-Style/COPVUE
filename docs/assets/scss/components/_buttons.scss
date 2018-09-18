@@ -33,13 +33,7 @@ markup:
 	 //  		@include button-style($color, auto, white);
 	 //  	}
 	 //  }
-	&.success {
-		&,
-		&:hover {
-			color: white;
-		}
-	}
-	 &.hollow{
+	&.hollow{
 		background-color: transparent;
 	}
 	&.clear{
